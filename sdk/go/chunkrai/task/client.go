@@ -116,8 +116,8 @@ func (c *Client) GetTaskRoute(
 		"https://api.chunkr.ai",
 	)
 	endpointURL := internal.EncodeURL(
-		baseURL+"/api/v1/task/%v",
-		taskId,
+		baseURL+"/api/v1/task/%s",
+		*taskId,
 	)
 	queryParams, err := internal.QueryValues(request)
 	if err != nil {

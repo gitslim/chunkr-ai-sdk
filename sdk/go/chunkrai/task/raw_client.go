@@ -2,11 +2,12 @@ package task
 
 import (
 	context "context"
+	http "net/http"
+
 	chunkrai "github.com/gitslim/chunkr-ai-sdk/sdk/go/chunkrai"
 	core "github.com/gitslim/chunkr-ai-sdk/sdk/go/chunkrai/core"
 	internal "github.com/gitslim/chunkr-ai-sdk/sdk/go/chunkrai/internal"
 	option "github.com/gitslim/chunkr-ai-sdk/sdk/go/chunkrai/option"
-	http "net/http"
 )
 
 type RawClient struct {
@@ -92,8 +93,8 @@ func (r *RawClient) GetTaskRoute(
 		"https://api.chunkr.ai",
 	)
 	endpointURL := internal.EncodeURL(
-		baseURL+"/api/v1/task/%v",
-		taskId,
+		baseURL+"/api/v1/task/%s",
+		*taskId,
 	)
 	queryParams, err := internal.QueryValues(request)
 	if err != nil {
