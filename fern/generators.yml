@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://schema.buildwithfern.dev/generators-yml.json
 api:
   specs:
-    - openapi: ./openapi.json
+    - openapi: ../openapi.json
 default-group: local
 groups:
   local:
@@ -14,4 +14,4 @@ groups:
           packageName: api
         output:
           location: local-file-system
-          path: ./sdk/go
+          path: ../sdk/go
