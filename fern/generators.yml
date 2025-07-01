@@ -7,11 +7,13 @@ groups:
   local:
     generators:
       - name: fernapi/fern-go-sdk
-        version: 0.13.0
+        version: 1.3.0
         config:
           module:
-            path: github.com/gitslim/chunkr-ai-sdk/sdk/go
-          packageName: api
+            path: github.com/gitslim/chunkr-ai-sdk/sdk/go/chunkrai
+            version: "1.19"
+          enableExplicitNull: true
+          packageName: chunkrai
         output:
           location: local-file-system
-          path: ../sdk/go
+          path: ../sdk/go/chunkrai
