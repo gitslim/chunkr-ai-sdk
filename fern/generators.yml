@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/generators-yml.json
+api:
+  specs:
+    - openapi: ../openapi.json
+default-group: local
+groups:
+  local:
+    generators:
+      - name: fernapi/fern-go-sdk
+        version: 1.3.0
+        config:
+          module:
+            path: github.com/gitslim/chunkr-ai-sdk/v2/chunkrai
+            version: "1.22"
+          enableExplicitNull: true
+          packageName: chunkrai
+        output:
+          location: local-file-system
+          path: ../chunkrai
