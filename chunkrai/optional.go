@@ -3,7 +3,7 @@
 package chunkrai
 
 import (
-	core "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/core"
+	core "github.com/gitslim/chunkr-ai-sdk/chunkrai/core"
 )
 
 // Optional initializes an optional field.

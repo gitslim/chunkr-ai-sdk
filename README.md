@@ -5,14 +5,14 @@ Go SDK for [Chunkr.ai](https://chunkr.ai/) — document layout analysis and chun
 ## Quick Start
 
 ```bash
-go get github.com/gitslim/chunkr-ai-sdk/v2/chunkrai@latest
+go get github.com/gitslim/chunkr-ai-sdk/chunkrai@latest
 ```
 
 ```go
 import (
-    client "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/client"
-    option "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/option"
-    chunkrai "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai"
+    client "github.com/gitslim/chunkr-ai-sdk/chunkrai/client"
+    option "github.com/gitslim/chunkr-ai-sdk/chunkrai/option"
+    chunkrai "github.com/gitslim/chunkr-ai-sdk/chunkrai"
 )
 
 c := client.NewClient(

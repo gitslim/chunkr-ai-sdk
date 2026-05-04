@@ -24,10 +24,10 @@ Instantiate and use the client with the following:
 package example
 
 import (
-    client "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/client"
-    option "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/option"
+    client "github.com/gitslim/chunkr-ai-sdk/chunkrai/client"
+    option "github.com/gitslim/chunkr-ai-sdk/chunkrai/option"
     context "context"
-    chunkrai "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai"
+    chunkrai "github.com/gitslim/chunkr-ai-sdk/chunkrai"
 )
 
 func do() {

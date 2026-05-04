@@ -5,9 +5,9 @@ package health
 import (
 	bytes "bytes"
 	context "context"
-	core "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/core"
-	internal "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/internal"
-	option "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/option"
+	core "github.com/gitslim/chunkr-ai-sdk/chunkrai/core"
+	internal "github.com/gitslim/chunkr-ai-sdk/chunkrai/internal"
+	option "github.com/gitslim/chunkr-ai-sdk/chunkrai/option"
 	http "net/http"
 )
 

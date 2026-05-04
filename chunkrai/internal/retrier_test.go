@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/core"
+	"github.com/gitslim/chunkr-ai-sdk/chunkrai/core"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

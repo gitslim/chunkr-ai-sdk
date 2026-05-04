@@ -4,7 +4,7 @@ package chunkrai
 
 import (
 	json "encoding/json"
-	core "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/core"
+	core "github.com/gitslim/chunkr-ai-sdk/chunkrai/core"
 )
 
 // Internal server error related to creating the task

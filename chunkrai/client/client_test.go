@@ -3,7 +3,7 @@
 package client
 
 import (
-	option "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/option"
+	option "github.com/gitslim/chunkr-ai-sdk/chunkrai/option"
 	assert "github.com/stretchr/testify/assert"
 	http "net/http"
 	testing "testing"

@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/core"
+	"github.com/gitslim/chunkr-ai-sdk/chunkrai/core"
 )
 
 // ErrorDecoder decodes *http.Response errors and returns a

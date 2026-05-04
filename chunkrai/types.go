@@ -5,7 +5,7 @@ package chunkrai
 import (
 	json "encoding/json"
 	fmt "fmt"
-	internal "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/internal"
+	internal "github.com/gitslim/chunkr-ai-sdk/chunkrai/internal"
 	time "time"
 )
 

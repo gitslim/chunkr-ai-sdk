@@ -1,4 +1,4 @@
-module github.com/gitslim/chunkr-ai-sdk/v2/chunkrai
+module github.com/gitslim/chunkr-ai-sdk/chunkrai
 
 go 1.22
 

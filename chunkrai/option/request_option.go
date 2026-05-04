@@ -3,7 +3,7 @@
 package option
 
 import (
-	core "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/core"
+	core "github.com/gitslim/chunkr-ai-sdk/chunkrai/core"
 	http "net/http"
 	url "net/url"
 )

@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/core"
+	"github.com/gitslim/chunkr-ai-sdk/chunkrai/core"
 )
 
 const (

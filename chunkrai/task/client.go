@@ -4,10 +4,10 @@ package task
 
 import (
 	context "context"
-	chunkrai "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai"
-	core "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/core"
-	internal "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/internal"
-	option "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/option"
+	chunkrai "github.com/gitslim/chunkr-ai-sdk/chunkrai"
+	core "github.com/gitslim/chunkr-ai-sdk/chunkrai/core"
+	internal "github.com/gitslim/chunkr-ai-sdk/chunkrai/internal"
+	option "github.com/gitslim/chunkr-ai-sdk/chunkrai/option"
 	http "net/http"
 )
 

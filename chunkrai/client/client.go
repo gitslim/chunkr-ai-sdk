@@ -3,12 +3,12 @@
 package client
 
 import (
-	core "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/core"
-	health "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/health"
-	internal "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/internal"
-	option "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/option"
-	task "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/task"
-	tasks "github.com/gitslim/chunkr-ai-sdk/v2/chunkrai/tasks"
+	core "github.com/gitslim/chunkr-ai-sdk/chunkrai/core"
+	health "github.com/gitslim/chunkr-ai-sdk/chunkrai/health"
+	internal "github.com/gitslim/chunkr-ai-sdk/chunkrai/internal"
+	option "github.com/gitslim/chunkr-ai-sdk/chunkrai/option"
+	task "github.com/gitslim/chunkr-ai-sdk/chunkrai/task"
+	tasks "github.com/gitslim/chunkr-ai-sdk/chunkrai/tasks"
 	http "net/http"
 )
 
