@@ -10,7 +10,7 @@ groups:
         version: 1.3.0
         config:
           module:
-            path: github.com/gitslim/chunkr-ai-sdk/chunkrai
+            path: github.com/gitslim/chunkr-ai-sdk
             version: "1.22"
           enableExplicitNull: true
           packageName: chunkrai
